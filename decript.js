@@ -17,4 +17,4 @@ const decript = (key, vinNumber) => {
   return result.join('');
 }
 // exemplo
-console.log(decript("abc01", "1bgcm82633a114302"));
+console.log(decript("abc01", "0hgbm82633a554352"));
