@@ -6,9 +6,9 @@ const cript = (key, vinNumber) => {
   for (let i = 0; i < vinNumber.length; i++) {
     let match = false;
     for(let j = 0; j < key.length; j++) {
-      if (vinNumber[i] === splitedKey[j]) {
+      if (vinNumber[i] === splitedInternalKey[j]) {
         match = true;
-        result.push(splitedInternalKey[j])
+        result.push(splitedKey[j])
       }
     }
     if (!match) result.push(vinNumber[i])
