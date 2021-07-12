@@ -1,5 +1,4 @@
-const decript = (key, vinNumber) => {
-  const internalKey = "ahb50";
+const decript = (key, internalKey, vinNumber) => {
   const splitedKey = key.split('');
   const splitedInternalKey = internalKey.split('');
   const result = []
@@ -17,4 +16,4 @@ const decript = (key, vinNumber) => {
   return result.join('');
 }
 // exemplo
-console.log(decript("abc01", "0hgbm82633a554352"));
+console.log(decript("abc01", "ahb50", "0hgbm82633a554352"));
